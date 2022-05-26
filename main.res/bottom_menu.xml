@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/todo"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="HOME"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/timer"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_menu_recent_history"
+        android:title="TIME"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/calculator"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_dialog_dialer"
+        android:title="CAL"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/translator"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_menu_mapmode"
+        android:title="TRANS"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/whitenoise"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_lock_silent_mode_off"
+        android:title="NOISE"
+        app:showAsAction="always" />
+
+
+</menu>
