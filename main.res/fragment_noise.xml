@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"
+    android:orientation="vertical"
+    tools:context=".WhiteNoise">
+
+    <TextView
+        android:id="@+id/Date_and_Time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:hint="현재 날짜와 시간이 뜨는 란"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/musicImg"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:src="@drawable/music" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/playButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#555555"
+            android:text="PLAY"
+            android:textSize="17dp"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/pauseButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#555555"
+            android:text="PAUSE"
+            android:textSize="17dp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/helpStudyText"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:background="@drawable/bold"
+            android:gravity="center"
+            android:hint="공부에 도움이 되는 명언 모음집\nRANDOM 버튼을 누르면\n무작위로 문구가 뜹니다."
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/randomButton"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_margin="5dp"
+            android:background="#555555"
+            android:text="Random"
+            android:textSize="17dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
